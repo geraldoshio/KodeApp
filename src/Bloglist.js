@@ -14,12 +14,12 @@ const Bloglist = () => {
     const handleClick = () => {
         console.log(count++)
         console.log ( name='wick' );
-        
+
     }
     return (
         <div>
             <h1>welcome to my blog!</h1>
-            <p>Hello { name }</p>
+            <h2>Hello { name }</h2>
             <button onClick={handleClick}> Click here to change my name</button>
         </div>
     )
